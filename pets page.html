@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style pets page.css">
+	<link rel="stylesheet" type="text/css" href="css/style pets page 768.css">
+	<link rel="stylesheet" type="text/css" href="css/style pets page 320.css">
+
+	<link rel="stylesheet" href="modal.css">
+	<title>Pets-page</title>
+</head>
+<body>
+
+<!--Header-->
+	<div class="contention">
+		<div class="header">
+			<div class="logo">
+				<a href="index.html" class="logo-title">Cozy House</a>
+				<p class="subtitile">Shelter for pets in Boston</p>
+					
+			</div>
+			<header>
+				<nav class="hamburger-menu">
+				<input id="menu__toggle" type="checkbox"/>
+  					<label class="menu__btn" for="menu__toggle">
+    					<span></span>
+  					</label> 
+					<ul class="nav-menu">
+						<li class="nav-menu-notactive"><a href="index.html">About the shelter</a></li>
+						<li class="nav-menu-active"><a href="#">Our pets</a></li>
+						<li class="nav-menu-not"><a href="#">Help the shelter</a></li>
+						<li class="nav-menu-not"><a href="#">Contacts</a></li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+	</div>
+
+	
+<!--Pets -->
+	<div class="pets">
+<!--modal-->			
+		<div class="box-modal"></div>
+<!--modal-->
+		<div class="pets-content">
+
+			<div class="pets-content-heading">
+				<p>Our friends who <br/> are looking for a house</p>
+			</div>
+			<div class="cards-container"></div>
+
+			<div class="navigation">
+				<div class="button-paginator-inactive-left-two">
+					<div class="paginator-left-two">< <</div>
+				</div>
+				<div class="button-paginator-inactive-left-one">
+					<div class="paginator-left-one"><</div>
+				</div>
+				<div class="button-paginator-active">
+					<div class="paginator-number">1</div>
+				</div>
+				<div class="button-paginator-rigth-one">
+					<div class="paginator-rigth-one">></div>
+				</div>
+				<div class="button-paginator-rigth-two">
+					<div class="paginator-rigth-two">> ></div>
+				</div>	
+			</div>
+		</div>
+	</div>	
+
+<!-- Footer-->
+	<footer>
+		<div class="footer-content">
+			<div class="footer-contacts">
+				<div class="footer-contacts-title">
+					<p>For questions and suggestions</p>
+				</div>
+				<div class="footer-main">
+					<a href="mailto:email@shelter.com">
+						<img src="assets/mail.png">
+						<p>email@shelter.com</p>
+					</a>
+				</div>
+				<div class="footer-phone">
+					<a href="tel:+13 674 567 75 54">
+						<img src="assets/phone.png">
+						<p>+13 674 567 75 54</p>
+					</a>
+				
+				</div>	
+			</div>
+			<div class="footer-locations">
+				<div class="footer-locations-title">
+					<p>We are waiting for your visit</p>
+				</div>
+				<div class="footer-boston">
+					<img src="assets/pin.png">
+					<p>1 Central Street, Boston (entrance from the store)</p>
+				</div>
+				<div class="footer-london">
+					<img src="assets/pin.png">
+					<p>18 South Park, London </p>
+				</div>	
+			</div>	
+			<div class="footer-img">
+				<img src="assets/footer-puppy.png">
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/ourPets-script.js"></script>
+	<script src="js/modal.js"></script>
+
+</body>
+</html>

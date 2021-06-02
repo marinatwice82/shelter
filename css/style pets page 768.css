@@ -1,0 +1,77 @@
+@media all and (min-width: 768px) and (max-width: 1280px) {
+html { min-height: 100%; }
+body {
+	width: 768px;
+	margin: 0 auto;
+	display: block;
+}
+.header { 
+	height: 120px;
+}
+.logo { 
+	height: 120px;
+	justify-content: center;
+}
+.logo-title {
+	margin-top: 0%;
+	margin-bottom: 7%; 
+}
+.nav-menu {
+	width:  448px;
+	margin-top: 0%;
+	margin-bottom: 2%;
+	padding-right: 2%;
+}
+/* Pets */
+.pets {
+	height: 1733px;
+}
+.pets-content { 
+	height: 1603px;
+}
+.pets-content-heading {
+	margin-top: 1.5%;
+}
+.cards-container { 
+	width: 580px;
+	height: 1400px;
+}
+.card-scarlett, .card-freddie {
+	display: none;
+}
+.navigation { margin-bottom: 1.5%;}
+
+/*Footer*/
+footer {
+	height: 639px;
+}
+.footer-content {
+	height: 98%;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+.footer-contacts {
+	width: 40%;
+	height: 250px;
+	margin-bottom: 5.4%;
+	margin-left: 5%;
+}
+.footer-contacts-title { width: 100%; }
+.footer-main a {
+	margin-top: 2%;
+}
+.footer-phone a {
+	margin-bottom: 4.5%;
+}
+.footer-locations { 
+	width: 45%;
+	height: 250px;
+	margin-bottom: 5%;
+	margin-left: 0%;
+}
+.footer-main { margin-top:2%; }
+.footer-locations-title { margin-top:1%; }
+.footer-boston { width: 88%; }
+.footer-london { width: 270px; margin-bottom: 2%;}
+.footer-img { margin-top: 0%; }
+}
