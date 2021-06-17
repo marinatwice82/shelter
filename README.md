@@ -1,4 +1,4 @@
-# Task 2. Shelter от [RSS School](https://rs.school/)
+# Task 3. Shelter от [RSS School](https://rs.school/)
 
 <img src="./img/shelter.jpg">
 
